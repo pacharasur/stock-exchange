@@ -1,0 +1,23 @@
+# Build and test output
+/bin/
+/build/
+/dist/
+*.test
+*.out
+coverage/
+coverage.*
+/services/matching-engine/matching-engine
+
+# Editors and macOS
+.idea/
+.vscode/
+.DS_Store
+
+# Secrets and local runtime data
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+/data/
+/tmp/
